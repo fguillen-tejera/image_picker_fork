@@ -20,7 +20,7 @@ export 'package:image_picker_platform_interface/image_picker_platform_interface.
 
 /// Provides an easy way to pick an image/video from the image library,
 /// or to take a picture/video with the camera.
-class ImagePicker {
+class CustomImagePicker {
   /// The platform interface that drives this plugin
   @visibleForTesting
   static ImagePickerPlatform get platform => ImagePickerPlatform.instance;
